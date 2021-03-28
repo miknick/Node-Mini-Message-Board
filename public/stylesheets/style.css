@@ -1,0 +1,67 @@
+:root{
+  --primary: #06dfeb;
+}
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 25vh;
+  background-color:rgb(45, 45, 45);
+}
+p,h1,h4,label{
+  color:white;
+}
+
+input{
+  width: 333px;
+  height: 25px;
+}
+input,textarea{
+  margin:5px 0px;
+  border-radius: 10px;
+  border: 0px;
+}
+a{
+  color: var(--primary);
+  text-decoration: none;
+  position: relative;
+}
+
+.messageCard>div{
+  display: flex;
+  position: relative;
+  bottom: 30px;
+  left: 70px;  
+}
+.messageCard>div>p{
+ margin-top: 1.18rem;
+margin-left: 5px;
+}
+hr{
+  margin-top: -40px;
+  width: 120%;
+height:  2px;
+  background-color: #fff;
+}
+.messageNav{
+  float: right;
+  position: relative;
+  top: 5px;
+  left: 85px;
+}
+
+form>button{
+  height: 40px;
+  width: 70px;
+  border: 0;
+  margin-top: 0.6rem;
+  float: right;
+  background-color: var(--primary);
+  border-radius: 20px;
+}
+
+form>a{
+  position: relative;
+  top: 60px;
+  left: 210px;
+}

@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  div 
+    h1= title
+    p Welcome to #{title}
+    each message in  messages
+      div(class="messageCard")
+        h1 #{message.text}
+        div 
+          h4 By #{message.user}  
+          p  Submitted at #{message.added}
+        hr
+    a(href="/new" class="messageNav") Add New Message
